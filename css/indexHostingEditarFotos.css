@@ -1,0 +1,139 @@
+ body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 40px;
+            color: #111;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #000;
+            letter-spacing: 1px;
+        }
+
+       .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+            gap: 30px 20px; /* 30px vertical, 20px horizontal */
+            margin-bottom: 50px;
+            align-items: start;
+        }   
+
+        .image-container {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+            background-color: #f8f8f8;
+            transition: transform 0.2s ease;
+        }
+
+        .image-container:hover {
+            transform: scale(1.02);
+        }
+
+        .anuncio-img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .btn-delete-image {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            font-size: 16px;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-delete-image:hover {
+            background-color: #444;
+        }
+
+        form.upload-form {
+            max-width: 400px;
+            margin: 0 auto 60px;
+            padding: 30px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        form.upload-form label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        form.upload-form input[type="file"] {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        form.upload-form button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        form.upload-form button:hover {
+            background-color: #333;
+        }
+
+        .back-btn {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 12px 24px;
+            background-color: #000;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #333;
+        }
+
+        .no-images {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #000;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

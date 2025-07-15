@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root {
+    --gray-color: #575757; 
+    --gray-color-second: #bdbdbd; 
+    --gray-dark-color:#212020;
+    --custom-black: #131213;
+    --white-color:#f8f8f8;
+    --black-color: #000000; 
+    --background-body: #ffffff; 
+    --custom-red:  rgb(187, 27, 27);
+}
+*{
+    text-decoration: none !important;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/* --------------------------------------------------------- */
+
+.navbar{
+    border-bottom: 1px solid #0000001b;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+.navbar .container-fluid{
+    width: 90%;
+    padding: 0;
+}
+.navbar .container-fluid .navbar-brand{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.navbar .container-fluid .navbar-brand img{
+   width: 7vw;
+   height: 7vw;
+}
+.btn-custom {
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* degradado azul moderno */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 50px; /* bordes redondeados */
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 4px 14px rgba(0, 114, 255, 0.4); /* sombra suave */
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 114, 255, 0.5);
+  font-size: 1rem;
+}
+
+.search-bar{ 
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.126);
+    max-width: 50vw;
+}
+
+.btn{
+    width: 50px;
+    height: 42px;
+}
+.user-profile{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    background-color: var(--black-color);
+    color: var(--background-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    border: none;
+}
+.options-nav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 15px;
+}
+.options-nav .dropdown button i{
+    font-size: 1.5rem;
+}
+.container-category-booking{
+    display:flex;
+    justify-content: center;
+}
+.container-category-booking .category-booking{
+    width: 90%;
+}
+.container-category-booking .item-category{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    margin: 20px 0;
+}
+.container-category-booking .item-category:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+.container-category-booking .item-category img{
+    width: 5.5vw;
+    height: 5.5vw;
+}
+.container-category-booking .item-category p{
+    font-family: "Roboto Condensed", sans-serif;
+    color: #585858;
+    font-size: 1rem;
+}
+.container{
+    max-width: 100%;
+    margin: 0;
+}
+.container .container-sub{
+    max-width: 90%
+}
+/*---------------------------------------------------------*/
+/* Puedes poner esto en tu archivo .css o entre <style> en tu JSP */
+
+.housing-card {
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.housing-card:hover {
+  transform: scale(1.02);
+}
+
+.housing-img {
+  height: 230px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.row{
+    max-width: 90%;
+    width: 100%;
+}
+/* ------------------------------------------------------- */
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Lexend", sans-serif;
+  }
+  .footer-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    height: 250px;
+  }
+  
+  .column p {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.3rem;
+  }
+  
+  /* Соня - palabra final */
+  .signature-container{
+    max-height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .signature {
+    font-size: 30vw;
+    color: rgba(253, 253, 253, 0.948);
+    font-weight: bold;
+    letter-spacing: -0.1vw;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+}
+      
+   .user-profile img.navbar-profile-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}

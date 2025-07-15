@@ -1,0 +1,81 @@
+    body {
+        background-color: #f8f9fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .title-bnv h2 {
+        font-size: 2.5rem;
+        color: #212529;
+    }
+
+    .sub-title-bnv p {
+        font-size: 1.2rem;
+        color: #6c757d;
+    }
+
+    .card-reservation {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 20px;
+        transition: transform 0.2s ease-in-out;
+        height: 100%;
+    }
+
+    .card-reservation:hover {
+        transform: translateY(-5px);
+    }
+
+    .card-reservation .left,
+    .card-reservation .right {
+        flex: 1;
+    }
+
+    .card-reservation .left h5 {
+        font-size: 1.25rem;
+        color: #343a40;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-reservation .left small {
+        font-size: 0.9rem;
+        color: #6c757d;
+    }
+
+    .card-reservation .left .date-range {
+        margin-top: 20px;
+        font-weight: 600;
+        color: #495057;
+    }
+
+    .card-reservation .right img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .badge-status {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: #ffffff;
+        padding: 5px 10px;
+        border-radius: 0 10px 10px 0;
+        font-weight: 600;
+        font-size: 0.85rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .btn-outline-primary.btn-sm {
+        margin-top: 1rem;
+        padding: 6px 12px;
+        font-size: 0.875rem;
+        border-radius: 30px;
+        width: 111px;
+        height: 42px;
+    }
+    .btn btn-outline-primary btn-sm {
+        width: 111px;
+        height: 42px;
+    }

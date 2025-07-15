@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.cara_login {
+    width: 400px;
+    background-color: #fff;
+    margin: 80px auto;
+    padding: 30px 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.login {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 12pt;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form_login {
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border 0.3s;
+}
+
+.form_login:focus {
+    border-color: #888;
+    outline: none;
+}
+
+.ingre_login {
+    background: #007BFF;
+    color: white;
+    font-size: 12pt;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.ingre_login:hover {
+    background: #0056b3;
+}
+
+img {
+    border-radius: 50%;
+    width: 120px;
+    margin: 0 auto 20px auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registro-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10pt;
+}
+
+.registro-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.registro-link a:hover {
+    text-decoration: underline;
+}

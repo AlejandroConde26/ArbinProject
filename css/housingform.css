@@ -1,0 +1,130 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        color: #222;
+    }
+     .preview-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .preview-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
+    
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 32px;
+    }
+    
+    .actions button {
+        margin-left: 10px;
+        padding: 8px 16px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        background: none;
+        cursor: pointer;
+    }
+    
+    .main-content h1 {
+        margin-top: 40px;
+        font-size: 28px;
+    }
+    
+    .card-section {
+        margin-top: 30px;
+    }
+    
+    .card-section h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .card {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background-color: #fafafa;
+        border: 1px solid #ddd;
+        padding: 16px;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .card.clickable {
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .material-symbols-outlined.icon {
+        font-size: 28px;
+        color: #222;
+    }
+    
+    .material-symbols-outlined.arrow {
+        margin-left: auto;
+        font-size: 24px;
+        color: #666;
+    }
+    
+.formulario-anuncio {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .formulario-anuncio h2 {
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        .formulario-anuncio label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+
+        .formulario-anuncio input,
+        .formulario-anuncio textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        .formulario-anuncio button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .formulario-anuncio button:hover {
+            background-color: #1565c0;
+        }
+        
+        

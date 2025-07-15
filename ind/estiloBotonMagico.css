@@ -1,0 +1,59 @@
+.magic-container {
+  display: inline-flex;
+  padding: 15px;
+  
+}
+
+.magic-button {
+  position: relative;
+  overflow: hidden;
+  padding: 14px 32px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;           
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  cursor: pointer;
+  isolation: isolate;
+}
+
+/* Círculo que invierte los colores */
+.magic-button .circle {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+  transform: scale(0);
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: difference;
+}
+
+
+
+/* PARTE DEL TEXTO */
+#type-target {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+.typeit-cursor {
+  color: lime;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-1px); }
+  75% { transform: translateX(1px); }
+}
+
+.shake {
+  animation: shake 0.3s ease-in-out;
+}

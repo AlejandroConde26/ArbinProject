@@ -1,0 +1,92 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f8f9fa;
+        }
+        h1 { 
+            color: #343a40; 
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px 10px;
+            border: 1px solid #dee2e6;
+            text-align: left;
+        }
+        th {
+            background: #007bff;
+            color: #fff;
+        }
+        tr:nth-child(even) { background: #f1f3f5; }
+        
+        #graficoAlojamientos {
+            width: 100%;
+            max-width: 700px;
+            height: 300px;
+            margin-bottom: 30px;
+        }
+.container-fluid h1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center; 
+    color: #333;
+}
+
+#graficoAlojamientos {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff; 
+    padding: 15px; 
+}
+
+.table-responsive {
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); 
+}
+.table-responsive table {
+    width: 100%;
+    min-width: 600px; 
+    border-collapse: collapse;
+}
+
+.table-responsive th,
+.table-responsive td {
+    padding: 12px 15px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.table-responsive thead th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #495057;
+}
+
+.table-responsive tbody tr:hover {
+    background-color: #e2f4ff; 
+}
+
+.container,.container-fluid,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl {
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto
+}
+th {
+    font-weight: 600;
+    color: #0000001b;
+    text-align: inherit;
+    text-align: -webkit-match-parent;
+}
